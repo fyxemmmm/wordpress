@@ -46,7 +46,7 @@
 
 			<div class="footertext">
 
-				<p class="foo-logo" style="background-image: url('<?php bloginfo('template_url'); ?>/images/paopao/<?php echo rand(1,33)?>.png');"></p>
+				<!-- <p class="foo-logo" style="background-image: url('<?php bloginfo('template_url'); ?>/images/paopao/<?php echo rand(1,33)?>.png');"></p> -->
 
 				<p>©2019 <?php bloginfo('name');?><div style="display:none"><script type="text/javascript">eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('c 4=(("1:"==2.d.f)?" 1://":" 6://");2.7(8("%9 a=\'b\'%0%3/e%0%5 g=\'"+4+"h.i.j/k.l%m%n%o%p\' q=\'r/s\'%0%3/t%0"));',30,30,'3E|https|document|3C|cnzz_protocol|3Cscript|http|write|unescape|3Cspan|id|cnzz_stat_icon_1261914973|var|location|span|protocol|src|s11|cnzz|com|z_stat|php|3Fid|3D1261914973|26show|3Dpic1|type|text|javascript|script'.split('|'),0,{}))</script></div></p>
 
