@@ -115,7 +115,7 @@ function login_header( $title = 'Log In', $message = '', $wp_error = null ) {
 		$login_header_title = get_network()->site_name;
 	} else {
 		$login_header_url   = __( 'https://wordpress.org/' );
-		$login_header_title = __( 'Powered by WordPress' );
+		$login_header_title = __( 'feixiang\'s blog');
 	}
 
 	/**
@@ -182,7 +182,7 @@ function login_header( $title = 'Log In', $message = '', $wp_error = null ) {
 	do_action( 'login_header' );
 	?>
 	<div id="login">
-		<h1><a href="<?php echo esc_url( $login_header_url ); ?>" title="<?php echo esc_attr( $login_header_title ); ?>" tabindex="-1"><?php echo $login_header_text; ?></a></h1>
+		<h1><a title="<?php echo esc_attr( $login_header_title ); ?>" tabindex="-1"><?php echo $login_header_text; ?></a></h1>
 	<?php
 
 	unset( $login_header_url, $login_header_title );

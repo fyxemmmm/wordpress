@@ -50,11 +50,11 @@ $profile_help = '<p>' . __('Your profile contains information about you (your &#
 	'<p>' . __('Required fields are indicated; the rest are optional. Profile information will only be displayed if your theme is set up to do so.') . '</p>' .
 	'<p>' . __('Remember to click the Update Profile button when you are finished.') . '</p>';
 
-get_current_screen()->add_help_tab( array(
-	'id'      => 'overview',
-	'title'   => __('Overview'),
-	'content' => $profile_help,
-) );
+// get_current_screen()->add_help_tab( array(
+// 	'id'      => 'overview',
+// 	'title'   => __('Overview'),
+// 	'content' => $profile_help,
+// ) );
 
 get_current_screen()->set_help_sidebar(
     '<p><strong>' . __('For more information:') . '</strong></p>' .

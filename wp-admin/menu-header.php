@@ -71,6 +71,18 @@ function _wp_menu_output( $menu, $submenu, $submenu_as_parent = true ) {
 	$first = true;
 	// 0 = menu_title, 1 = capability, 2 = menu_slug, 3 = page_title, 4 = classes, 5 = hookname, 6 = icon_url
 	foreach ( $menu as $key => $item ) {
+		// var_dump(wp_get_current_user()->caps);exit;
+		// $is_admin = get_currentuserinfo()->caps;
+		// // var_dump($is_admin);exit;
+		// if($is_admin){
+		// 	// var_dump($is_admin['administrator']);exit;
+		// 	if(!isset($is_admin['administrator']) && $item[0] == '仪表盘'){
+		// 		// echo 333;exit;
+		// 		continue;
+		// 	}
+		// }
+
+		// if($item[0] == '仪表盘') continue;
 		$admin_is_parent = false;
 		$class = array();
 		$aria_attributes = '';

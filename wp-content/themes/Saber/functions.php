@@ -618,8 +618,14 @@ function comment_mail_notify($comment_id){
 add_action('comment_post', 'comment_mail_notify');
 
 
-
-
+// add_filter('login_headerurl', create_function(false,"return get_bloginfo( 'siteurl' );"));
+// function custom_loginlogo() {
+// 	// echo get_bloginfo('template_directory').'/images/';exit;
+// 	echo '<style type="text/css">
+// 	h1 a {background:#00a67c url('.get_bloginfo('template_directory').'/images/logo.png) !important;height: 70px!important;width: 300px!important;}
+// 	</style>';
+// 	}
+// 	add_action('login_head', 'custom_loginlogo');
 
 //code end 
 
