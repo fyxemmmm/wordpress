@@ -626,6 +626,14 @@ add_action('comment_post', 'comment_mail_notify');
 // 	</style>';
 // 	}
 // 	add_action('login_head', 'custom_loginlogo');
+add_filter('avatar_defaults','newgravatar');  
+ 
+// 自定义头像
+function newgravatar ($avatar_defaults){
+	$myavatar = get_bloginfo('template_directory').'/images/huanguan.jpg';
+	$avatar_defaults[$myavatar] ="皇冠头像";
+	return $avatar_defaults;
+}
 
 //code end 
 
