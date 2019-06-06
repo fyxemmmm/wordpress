@@ -228,7 +228,7 @@ function optionsframework_options() {
 
         
 
-        'desc' => __('本主题免费分享,BUG反馈群:495221838', ''),
+        'desc' => __('feixiang', ''),
 
 
 

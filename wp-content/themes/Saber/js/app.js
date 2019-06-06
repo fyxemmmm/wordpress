@@ -646,9 +646,9 @@ $(function() {
         $(this).postLike();
     }); 
 
-    console.log("%c Saber %c","background:#24272A; color:#ffffff","","http://acglifan.me");
-    console.log("%c 作者留言 %c","background:#24272A; color:#ffffff","","本主题免费分享"); 
-    console.log("%c 交流群 %c","background:#24272A; color:#ffffff","","495221838"); 
+    // console.log("%c Saber %c","background:#24272A; color:#ffffff","","http://acglifan.me");
+    // console.log("%c 作者留言 %c","background:#24272A; color:#ffffff","","本主题免费分享"); 
+    // console.log("%c 交流群 %c","background:#24272A; color:#ffffff","","495221838"); 
 
 });
 
