@@ -64,7 +64,7 @@ $the_cat = get_the_category();
 
 				<div class="post-meta">
 
-					<span><i class="iconfont"></i><?php echo get_post_views(get_the_ID()); ?> 次调戏</span>
+					<span><i class="iconfont"></i><?php echo get_post_views(get_the_ID()); ?> 次阅读</span>
 
 					<span class="comments-number"><i class="iconfont"></i><?php comments_popup_link('暂无咸鱼', '1 条咸鱼', '% 条咸鱼'); ?></span>
 
@@ -81,7 +81,7 @@ $the_cat = get_the_category();
 					<div class="post-bottom">
 
 						<!-- <a href="<?php the_permalink(); ?>" class="button-normal"><span style='text-shadow:0 0 1px #BDC0BA;'><i class='fa fa-hand-peace-o' aria-hidden='true'></i>Σ(°Д°;&nbsp;&nbsp;翻&nbsp;&nbsp;牌&nbsp;&nbsp;子</span></a> -->
-						<a href="<?php the_permalink(); ?>" class="button-normal"><span style='text-shadow:0 0 1px #BDC0BA;'><i class='fa fa-hand-peace-o' aria-hidden='true'></i> - -  &nbsp;点击阅读&nbsp; - -</span></a>
+						<a href="<?php the_permalink(); ?>" class="button-normal"><span style='text-shadow:0 0 1px #BDC0BA;'><i class='fa fa-hand-peace-o' aria-hidden='true'></i> [   &nbsp;点击阅读&nbsp;  ]</span></a>
 
 
 					</div>
