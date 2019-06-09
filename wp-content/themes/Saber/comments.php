@@ -55,7 +55,7 @@
 			<?php cancel_comment_reply_link('取消回复'); ?>
 		</div>
 		<?php if ( get_option('comment_registration') && !$user_ID ) : ?>
-		<p><?php print '您必须'; ?><a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php echo urlencode(get_permalink()); ?>"> [ 登录 ] </a>才能发表留言！</p>
+		<p style="margin-left:6px"><?php print '您必须'; ?><a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php echo urlencode(get_permalink()); ?>"> [ 登录 ] </a>才能发表留言！</p>
     <?php else : ?>
     <form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">	
       <?php if ( $user_ID ) : ?>
