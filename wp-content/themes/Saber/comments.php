@@ -23,7 +23,7 @@
 		</div>
 
 		<div class="comments-main">
-		 <h3 id="comments-list-title"><span class="noticom"><?php comments_popup_link('Post a new comment', ' 1 条咸鱼在这里躺着', ' % 条咸鱼在这里躺着'); ?> </span></h3> 
+		 <h3 id="comments-list-title"><span class="noticom" style="margin-left:0px"><?php comments_popup_link('Post a new comment', ' 1 条评论', ' % 条评论'); ?> </span></h3> 
 		<div id="loading-comments"><span></span></div>
 			<?php if(have_comments()): ?>
 
@@ -59,7 +59,7 @@
     <?php else : ?>
     <form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">	
       <?php if ( $user_ID ) : ?>
-      <p class="loginwords"><?php print '咸鱼：'; ?> <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>&nbsp;&nbsp;<a href="<?php echo wp_logout_url(get_permalink()); ?>" title="退出"><?php print '[ 退出 ]'; ?></a></p>
+      <p style="margin-left:6px" class="loginwords"><?php print '你好,'; ?> <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>&nbsp;&nbsp;<a href="<?php echo wp_logout_url(get_permalink()); ?>" title="退出"><?php print '[ 退出 ]'; ?></a></p>
 	<?php else :?>	
 			
 	<div class="author-updown"><?php printf(__('欢迎回来 ,  %s '), $comment_author); ?> 
@@ -91,11 +91,11 @@
       <div class="clear"></div>
          
 
-		<p class="coments_words"><textarea name="comment" id="comment" placeholder="有意义的评论能给后来的小伙伴参考" tabindex="4" cols="50" rows="5"></textarea></p>
+		<p class="coments_words"><textarea name="comment" id="comment" placeholder="有意义的评论能给后来的小伙伴参考哦" tabindex="4" cols="50" rows="5"></textarea></p>
 		<div class="com-footer">
 	
 		
-			<input class="submit" name="submit" type="submit" id="submit" tabindex="5" value="咸鱼+1S" />
+			<input class="submit" name="submit" type="submit" id="submit" tabindex="5" value="发表评论" />
 			<?php comment_id_fields(); ?>
 			
 			
