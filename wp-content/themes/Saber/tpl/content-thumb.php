@@ -66,7 +66,7 @@ $the_cat = get_the_category();
 
 					<span><i class="iconfont"></i><?php echo get_post_views(get_the_ID()); ?> 次阅读</span>
 
-					<span class="comments-number"><i class="iconfont"></i><?php comments_popup_link('暂无咸鱼', '1 条咸鱼', '% 条咸鱼'); ?></span>
+					<span class="comments-number"><i class="iconfont"></i><?php comments_popup_link('暂无评论', '1 条评论', '% 条评论'); ?></span>
 
 					<span><i class="iconfont"></i><a href="<?php echo esc_url(get_category_link($the_cat[0]->cat_ID)); ?>"><?php echo $the_cat[0]->cat_name; ?></a>
 
