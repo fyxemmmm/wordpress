@@ -23,7 +23,7 @@
 		</div>
 
 		<div class="comments-main">
-		 <h3 id="comments-list-title"><span class="noticom" style="margin-left:0px"><?php comments_popup_link('Post a new comment', ' 1 条评论', ' % 条评论'); ?> </span></h3> 
+		 <h3 id="comments-list-title"><span class="noticom" style="margin-left:6px"><?php comments_popup_link('Post a new comment', ' 1 条评论', ' % 条评论'); ?> </span></h3> 
 		<div id="loading-comments"><span></span></div>
 			<?php if(have_comments()): ?>
 
